@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:sec_seven_app/config/menu/menu_item.dart';
-import 'package:sec_seven_app/presentation/screens/buttons/buttons_screen.dart';
+import 'package:sec_seven_app/presentation/screens/screens.dart';
 
 class HomeScreen extends StatelessWidget {
+  static const String name = 'home_screen';
+
   const HomeScreen({super.key});
 
   @override
@@ -54,7 +57,9 @@ class _CustomTile extends StatelessWidget {
       title: Text(item.title),
       subtitle: Text(item.subTitle),
       onTap: () => { 
-        Navigator.pushNamed(context, item.link)
+        context.push( item.link )
+        // context.pushNamed( CardsScreen.name )
+        // Navigator.pushNamed(context, item.link)
         // Navigator.of(context).push(
         //   MaterialPageRoute(
         //     builder: (context) => const ButtonsScreen()
