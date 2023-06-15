@@ -7,6 +7,11 @@ class UIControlsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('UI Controls'),
+      ),
+      body: const Placeholder()
+    );
   }
 }

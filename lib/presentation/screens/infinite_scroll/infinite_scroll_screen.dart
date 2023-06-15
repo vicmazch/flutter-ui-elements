@@ -7,6 +7,11 @@ class InfiniteScrollScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Infinite scroll'),
+      ),
+      body: const Placeholder()
+    );
   }
 }
