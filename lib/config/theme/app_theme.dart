@@ -28,6 +28,8 @@ class AppTheme {
     )
   );
 
+  List<Color> getColorList() => colorList;
+
 
 
   
