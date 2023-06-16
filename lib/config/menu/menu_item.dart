@@ -24,4 +24,6 @@ const List<MenuItem> appMenuItems = [
    MenuItem(title: 'UI Controls', subTitle: 'Checkboxes, radius, and tiles', link: '/ui-controls', icon: Icons.check_circle_outline_outlined),
    MenuItem(title: 'App tutorial', subTitle: 'Tutorial app...', link: '/app-tutorial', icon: Icons.insert_comment_rounded),
    MenuItem(title: 'Infinite Scroll & Pull to refresh', subTitle: 'Infinite Scroll & Pull to refresh', link: '/infinite-scroll', icon: Icons.list),
+   MenuItem(title: 'Counter', subTitle: 'Counter Riverpod', link: '/counter-screen', icon: Icons.add_circle_outline_rounded),
+   MenuItem(title: 'Theme', subTitle: 'Theme Changer', link: '/theme-changer', icon: Icons.color_lens_outlined),
 ];

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:math' show Random;
 
-import 'package:sec_seven_app/config/theme/app_theme.dart';
+// import 'package:sec_seven_app/config/theme/app_theme.dart';
 class AnimatedScreen extends StatefulWidget {
   static const name = 'animated_screen';
 
@@ -18,7 +18,7 @@ class _AnimatedScreenState extends State<AnimatedScreen> {
   Color color = Colors.indigo;
   double borderRadius = 10.0;
 
-  final colors = AppTheme().getColorList();
+  // final colors = colorList;
 
   void changeShape() {
     final random = Random();
